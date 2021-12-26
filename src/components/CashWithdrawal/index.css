@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-card {
+  border-radius: 10px;
+  background-color: #150b3e;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 700px;
+}
+
+.name-image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon {
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #c7d2fe;
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #7c3aed;
+  margin-right: 20px;
+}
+
+.name {
+  font-family: 'roboto';
+  font-size: 24px;
+  color: #d4d2db;
+  margin-right: 20px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-header {
+  font-family: 'roboto';
+  font-size: 24px;
+  color: #585076;
+}
+
+.balance-amt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.balance-amt {
+  font-family: 'roboto';
+  font-size: 30px;
+  color: #fff;
+}
+
+.rupees-tag {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #585076;
+}
+
+.withdraw-header {
+  font-family: 'roboto';
+  font-size: 30px;
+  color: #fff;
+}
+
+.withdraw-tag {
+  font-family: 'roboto';
+  font-size: 24px;
+  color: #585076;
+}
+
+.button-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
